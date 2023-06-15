@@ -25,8 +25,6 @@ public class Anggota {
         this.alamat = alamat;
         this.jeniskelamin = jeniskelamin;
     }
-    
-    
 
     public String getKodeanggota() {
         return kodeanggota;
@@ -59,6 +57,9 @@ public class Anggota {
     public void setJeniskelamin(String jeniskelamin) {
         this.jeniskelamin = jeniskelamin;
     }
+    
+    
+
     
     
     
