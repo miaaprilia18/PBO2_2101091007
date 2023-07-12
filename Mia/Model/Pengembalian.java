@@ -5,6 +5,10 @@
  */
 package Mia.Model;
 
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 /**
  *
  * @author user
@@ -43,10 +47,14 @@ public class Pengembalian {
     }
 
     public String getTgldikembalikan() {
+        SimpleDateFormat s = new SimpleDateFormat("yyyy-MM-dd");
+        Date tgl = new Date();
+        tgldikembalikan = s.format(tgl);
         return tgldikembalikan;
     }
 
     public void setTgldikembalikan(String tgldikembalikan) {
+       
         this.tgldikembalikan = tgldikembalikan;
     }
 
@@ -59,6 +67,7 @@ public class Pengembalian {
     }
 
     public double getDenda() {
+        denda = terlambat= terlambat;
         return denda;
     }
 
